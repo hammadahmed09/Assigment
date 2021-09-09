@@ -1,7 +1,23 @@
 First Assigment
+Hello World:
 
-Linkedin Acount
+void main() {
 
-Git Code Link
+var math = 70;
+var eng = 75;
+var urdu = 68;
+var isl = 68;  
+  
+  print ("Math:$math");
+  print ("Eng:$eng");
+  print ("Urdu:$urdu");
+  print ("Isl:$isl");
 
-Hello World
+  var total =(math+eng+urdu+isl);
+  print("Total:$total");
+  
+  var totalmark = 400;
+  var per = (total*100)/totalmark;
+  print ("Percentage:$per");
+  
+}
